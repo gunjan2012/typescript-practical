@@ -1,0 +1,78 @@
+/* backspace button reducing weight value*/
+.material-symbols-outlined {
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+}
+/* calculator container  */
+.calculator{
+  background-color: rgb(228, 228, 228);
+  padding: 0.125rem;
+  margin: 13rem 0rem;
+  border-radius:0.3rem;
+}
+/* super element */
+.super-element,.sub-element{
+  pointer-events: none;
+}
+/* button pannel button's alignment */
+.button-pannel{
+  display: flex; /* for align buttons */
+}
+/* add hover effect to buttons */
+.calculator-equal:hover, .calc-button:hover,.power:hover,#secondPannel:hover{
+  background-color: rgb(204, 204, 204);
+}
+/* calculator button */
+.calculator-equal,.calculator-dropdown,.calculator-number, .calc-button,.power,#secondPannel,.btn-change{
+  border: 0;
+  outline: 0;
+  width: 4rem;
+  height: 2.5rem;
+  margin: 0.1rem;
+  padding: 0.5rem;
+  border-radius: 0.188rem;
+  font-size: 0.9rem;
+}
+/* giving style to select elements */
+.calculator-dropdown{
+  display: flex;
+  align-items: center;
+}
+/* input display */
+.calculator-display{
+  display: flex;
+  height: 6rem;
+}
+/* set input screen with some style */
+#screen{
+  text-align: right;
+  flex: 1;  /*it takes full width of calculator-display width*/
+  font-size: 3.5rem;
+  box-shadow: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 5rem;
+}
+/* giving number bold style and background white */
+.calculator-number{
+  background-color: white;
+  font-weight: bold;
+}
+/* adding hover on number button */
+.calculator-number:hover{
+  background-color: rgb(150 194 224);
+}
+/* set equal sign background to blue */
+.calculator-equal{
+  background-color: rgb(150 194 224);
+}
+/* hide the second pannel's buttons */
+.btn-hide {
+  display: none;
+}
+/* showing the buttons */
+.btn-show{
+  display: block;
+}
